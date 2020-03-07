@@ -1,6 +1,6 @@
 FoodyGoody
 A website to search Recipe, Written in PHP, Javascript, and AJAX.
-Dibuat untuk pemenuhan tugas besar Praktikum Pemrograman Web.
+Dibuat untuk pemenuhan tugas besar Praktikum Pemrograman Web di semester dua.
 
 1118021 - Michelle Natasha Irawan
 1118023 - Daniel Alexander

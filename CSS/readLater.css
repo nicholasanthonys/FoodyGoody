@@ -1,0 +1,27 @@
+.recipe span {
+    text-align: center;
+    display: block;
+}
+
+.delete {
+    text-decoration: none;
+	font-size: 1.5em;
+	color: white;
+	text-align: center;
+	background-color: rgba(0,0,0,0.6);
+    border-radius: 30px;
+    padding-left:15px;
+    padding-right:15px;
+	font-size: 45px;
+	font-family: sweet;
+}
+
+.delete:hover{
+    transition: all .5s;
+	background-color: white;
+	color: rgb(61, 61, 61);
+}
+
+#all {
+    color: rgba(240, 240, 240, 0.8);
+}

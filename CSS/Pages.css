@@ -1,0 +1,260 @@
+#list{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+}
+
+#all{
+	height: 100%;
+}
+
+#wow{
+	padding: 5%;
+}
+
+#Recipesborder{
+	display: block;
+	background: url("../Multimedia/Images/Header/background_book.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#addRecipe{
+	margin-top: 10%;
+}
+
+#comment{
+	background-color: white;
+}
+	
+.recipe{
+	border: none;
+	/*margin: 20px;
+	padding: 20px;*/
+	align-items: center;
+	width: 190px;
+	height: 380px;
+	border-radius:20px;
+	padding-top: 50px;
+	color: #fff;
+}
+
+
+.recipesText {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 20px;
+	color: black;
+	/*background-color: rgba(0,0,0,0.2);*/
+}
+
+.recipesText span{
+	color: black;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+
+.dropdown-content {
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 180px;
+	background: url("../Multimedia/Images/Header/background_profile.jpg");
+	z-index: 1;
+	/*padding: 12px 16px;*/
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+li a {
+	transition: all 1s;
+}
+
+li a:hover {
+	transform: scale(1.5);
+}
+
+#srch {
+	background: rgba(0,0,0,0.6);
+}
+
+#searchRecipe {
+	margin: 2%;
+	padding: 2%;
+	display: block;
+	box-shadow: 8px 8px 16px 0px rgba(0,0,0,0.6);
+	background: url("../Multimedia/Images/Header/searchborder.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: 0;
+	border-radius: 30px;	
+}
+
+.dropdown-other {
+	background: white;
+	text-align: center;
+}
+
+#titleRecipeList {
+	margin-left: 36%;
+	text-align: center;
+	color: rgb(245, 245, 245);
+	background-color: rgba(0,0,0,0.6);
+	width: 400px;
+	height: 40px;
+	border-radius: 10px;
+	box-shadow: 8px 8px 16px 0px rgba(0,0,0,0.6);
+}
+
+#category {
+	padding-right: 10%;
+	padding: 2%;
+	position: relative;
+	margin-bottom: 0;
+	border-radius: 30px;
+	min-height: 40px;
+	background: transparent;
+	background: #fff;
+	display: block;
+	font-size: 18px;
+	width: 140px;	
+}
+
+#sort {
+	padding: 2%;
+	position: relative;
+	margin-bottom: 0;
+	border-radius: 30px;
+	min-height: 40px;
+	background: transparent;
+	background: #fff;
+	display: block;
+	font-size: 18px;
+	width: 230px;
+	text-align: center;
+}
+
+#inputname {
+	width: 280px;
+	height: 30px;
+	border: none;
+	padding-right: 1%;
+}
+
+.input-field {
+	padding: 2.5%;
+	width: 290px;
+	position: relative;
+	margin-bottom: 0;
+	border-radius: 30px;
+	background: #fff;
+	display: block;
+	font-size: 18px;
+	
+}
+
+#pp {
+	border:0;
+	border-radius: 30px;
+}
+
+#addRecipe {
+	padding: 2%;
+}
+
+/*#file_Upload {
+	position: relative;
+	min-height: 25px;
+	border-radius: 30px;
+	background: transparent;
+	background: #fff;
+	display: block;
+	width: 200px;
+}*/
+
+#upload_Category {
+	padding: 2%;
+	position: relative;
+	margin-bottom: 0;
+	border-radius: 30px;
+	min-height: 25px;
+	background: transparent;
+	background: #fff;
+	display: block;
+	width: 200px;
+	text-align: center;
+}
+
+.submit {
+	align-items: center;
+	background: #fff;
+	display: block;
+	border: none;
+  color: rgb(61, 61, 61);
+  text-align: center;
+  text-decoration: none;
+  font-size: 45px;
+	font-family: sweet;
+	min-height: 25px;
+	width: 200px;
+	border-radius: 30px;
+	transition: all 1s;
+	display: inline-block;
+	box-shadow: 8px 8px 16px 0px rgba(0,0,0,0.6);
+	margin-left: 3%;
+}
+
+.submit:hover{
+    transform: scale(1.5);
+}
+
+.show {
+	text-decoration: none;
+	font-size: 1.5em;
+	color: white;
+	text-align: center;
+	background-color: rgba(0,0,0,0.6);
+	border-radius: 30px;
+	padding: 2%;
+	margin: 2%;
+	min-height: 25px;
+	min-width: 500px;
+	font-size: 45px;
+	font-family: sweet;
+}
+
+.show:hover{
+	transition: all .5s;
+	background-color: white;
+	color: rgb(61, 61, 61);
+}
+
+#addRecipe {
+	background-color: rgba(240, 240, 240, 0.8);
+	color: black;
+	font-family: sweet;
+	font-size: 250%;
+}
+
+#title_text{
+	border-radius: 30px;
+	padding: 2%;
+	min-height: 15px;
+	width: 320px;
+}
+
+.center {
+	margin-left: 10%;
+	width: 80%;
+	height: 100%;
+}

@@ -1,0 +1,290 @@
+html{
+	max-width: 100%;
+}
+
+body {
+	margin: 0;
+	padding-top:0;
+	border:0;
+	font-family:Monsterrat;
+	background: url('../Multimedia/Images/Home/background_home.jpg');
+	display: flex;
+	flex-direction: column;
+}
+
+#all {
+	display: flex;
+	flex-direction: column;
+	position:relative;
+	padding-top:0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;	
+	height: 100%;  
+}
+
+.section{
+	display: flex;
+	max-width: 100%;
+	max-height: 100%;
+	height: 100%;
+}
+
+.section .text{
+	width: 30%;
+}
+
+.left{
+	
+}
+
+.right{
+	flex-direction: row;
+}
+/*	Header	*/
+.header{
+	width: 100%;
+	min-height: 15%;
+}
+
+#header{
+	background-color:rgb(65, 92, 94);
+	padding-top:0;
+	padding-bottom:0;
+	text-align: center;
+	font-size: 2em;
+	width: 100%;
+	height: 15%;
+	max-height: 500px;
+	color: white;
+	position: fixed;
+	z-index: 999;
+}
+
+#textPicture {
+	text-align: center;
+	font-size: 2em;
+	color: white;
+	position: relative;
+	padding:0;
+	height:100%;
+}
+
+/*	Navigation	*/
+.textnav {
+	margin:2%;
+}
+
+
+#header ul {
+	margin-left: 40%;
+	margin-top: 2.7%;
+	width: 50%;
+	height: 15%;
+	font-family: sweet;
+
+	font-size: 75%;
+	color: white;
+	display:flex; 
+	flex-direction: row-reverse;
+	list-style-type: none;
+	align-items: center;
+	
+}
+
+#header ul li {
+	float: right;
+	font-size: 150%;
+	width: 20%;
+}
+
+#header ul li a {
+	margin-right: 20%;
+	color: white;
+	display: block;
+	text-decoration: none;
+}
+
+li a .textnav {
+	transition: all 1s;
+}
+
+li a:hover .textnav {
+	transform: scale(1.5);
+}
+
+
+
+/*	Top Logo	*/
+.logo {
+	float:left;
+	margin-left: 4%;
+	width: 10%;
+	height: 40%;
+	align-items: center;
+	font-size: 2vw;
+}
+
+.logo a {
+	width: 100%;
+	height: 170%;
+	background: url('../Multimedia/Images/Intro/logo-background.png');
+	background-size:cover;
+	font-family: variane;
+	font-size:75%;
+	color: white;
+	display: block;
+	text-decoration: none;
+	transition: all 1s;
+}
+
+.logo a:hover {
+	transform: scale(1.5);
+}
+
+
+/* 	Link	*/
+.readmore{
+	text-decoration: none;
+	font-size: 1.5em;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+	background-color: rgba(0,0,0,0.6);
+	border:0;
+	border-radius: 30px;
+	width: 200px;
+}
+.readmore:hover {
+	transition: all .5s;
+	background-color: white;
+	color: black;
+}
+
+/*	Border	*/
+
+
+.section{
+	border-top: 2px dotted white;
+	border-bottom: 2px dotted white;
+	width: 100%;
+	height:75%;
+	font-size: .5em;
+	line-height: 20px;
+
+}
+
+.right{
+	flex-direction: row-reverse;
+}
+
+/*	Image	*/
+#pictBreakfast {
+	width:59.5%;
+	float: right;
+}
+
+#pictLunch {
+	width:59.5%;
+	float: left;
+}
+
+#pictDinner {
+	width:59.5%;
+	float: right;
+}
+
+#pictDessert {
+	width:59.5%;
+	float: left;
+}
+
+/*	Text	*/
+.text {
+	padding: 5% 5% 5% 5%;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.text1 {
+	padding-left:6%;
+	padding-top: 5%;
+	color: white;
+}
+
+
+#bfText {
+	width:80%;
+}
+
+.category {
+	font-family:variane;
+	font-size:250%;
+	text-align:center;
+	margin-bottom:5%;
+}
+
+.explain {
+	font-size:80%;
+}
+
+/*	Breakfast	*/
+.Breakfast {
+	width: 100%;
+}
+
+
+/*	Footer	*/
+#footer {
+	position: relative;
+	margin-top: 154.7%;
+	padding-top: 0.4%;
+	padding-left: 2%;
+	width: 100%;
+	height: 30%;
+	background-color:rgb(65, 92, 94);
+	color: white;
+	text-align: center;
+	font-family: variane;
+	font-size: 250%;
+}
+
+.dropdown {
+	position: relative;
+	  display: inline-block;
+	  text-align: center;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 180px;
+	background: url("../Multimedia/Images/Header/background_profile.jpg");
+	z-index: 1;
+}
+
+.dropdown-other {
+	background: white;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	padding: 12px 16px;
+	text-align: center;
+}
+
+li a {
+	transition: all 1s;
+}
+
+li a:hover {
+	transform: scale(1.5);
+}
+
+#pp {
+	border:0;
+	border-radius: 30px;
+}

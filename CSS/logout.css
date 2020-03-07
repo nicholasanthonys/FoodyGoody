@@ -1,0 +1,14 @@
+.logout {
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    background: white;
+    font-size: 45px;
+    font-family: sweet;
+    transition: all 1s;
+}
+
+.logout:hover{
+    transform: scale(1.5);
+}

@@ -1,0 +1,65 @@
+#list{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+}
+
+.recipe{
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	margin: 50px;
+	padding: 50px;
+	align-items: center;
+	}
+
+	.user{
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	margin: 50px;
+	padding: 50px;
+	align-items: center;
+	}
+
+#list a{
+	text-decoration: none;
+	color: black;
+}
+#wow{
+	background-color: white;
+	margin: 50px;
+	display: flex;
+}
+#title {
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	margin-right: 50px;
+}
+
+.addComment{
+	display: flex;
+	flex-direction: row;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  z-index: 1;
+  
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
